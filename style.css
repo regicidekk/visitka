@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+body {
+	margin: 0px;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -12,7 +16,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-li {
+li a {
+  color: #7c8699;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header li {
   display: inline-block;
   font-weight: bold;
   font-size: 1.7rem;
@@ -26,6 +39,71 @@ li {
 
 .main h1 {
   font-size: 5rem;
+  margin-top: 13rem;
+}
+
+.prnt li {
+  margin-top: 4rem;
+  list-style-type: none;
+}
+
+.main {
   margin-left: 20rem;
-  margin-top:9rem;
+  height: 100vh;
+  line-height: 75%;
+  margin-top: auto;
+
+}
+
+.prnt {
+  display: flex;
+  justify-content: space-between;
+}
+
+#soc {
+  margin-right: 10rem;
+}
+
+.about {
+  background-color: #7c8699;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 95vh;
+}
+
+.about p{
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 5rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+#right {
+  text-align: right;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.btn{
+  background: linear-gradient(70deg, #333333, #505050); 
+  border: none;
+  padding: 0.8rem;
+}
+.btn:hover{
+  transition: 3s;
+  background: linear-gradient(160deg, #333333, #505050); 
+}
+
+.contact{
+  background-color: #505050;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact p{
+  font-size:22px ;
 }
