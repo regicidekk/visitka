@@ -20,9 +20,12 @@ li a {
   color: #7c8699;
 }
 
-a {
+b {
   color: white;
-  text-decoration: none;
+}
+
+a {
+	  text-decoration: none;
 }
 
 .header li {
@@ -89,13 +92,13 @@ a {
 }
 
 .btn{
-  background: linear-gradient(70deg, #333333, #505050); 
+  background-color: #505050;
   border: none;
   padding: 0.8rem;
 }
 .btn:hover{
-  transition: 3s;
-  background: linear-gradient(160deg, #333333, #505050); 
+	transition: 0.5s;
+	background-color: #212121;
 }
 
 .contact{
@@ -104,6 +107,30 @@ a {
   text-align: center;
 }
 
+a {
+	color: white;
+}
+
 .contact p{
   font-size:22px ;
+}
+
+.projects {
+	text-align: center;
+	background-color: #787878;
+	padding: 2rem;
+	height: 100vh
+}
+
+.projects a{
+	text-decoration:underline dotted;
+}
+
+.projects h1{
+	margin-bottom: 5rem;
+	font-size: 3rem;
+}
+
+#imgmath {
+	border: 3px solid white;
 }
