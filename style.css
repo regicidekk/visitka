@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  background-color: #212121;
+  background-image: url(bg.jpg);
   color: white;
   font-family: 'Lato', sans-serif;
 }
@@ -36,9 +36,6 @@ a {
   color: #7c8699;
 }
 
-.header img {
-  border-radius: 18px;
-}
 
 .main h1 {
   font-size: 5rem;
@@ -67,19 +64,15 @@ a {
   margin-right: 10rem;
 }
 
-.about {
-  background-color: #7c8699;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  height: 95vh;
-}
-
-.about p{
+.about{
   font-weight: 700;
   font-size: 2rem;
-  margin-top: 5rem;
-  margin-left: 12rem;
-  margin-right: 12rem;
+  padding-top: 2rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  height: 100vh;
+  color:#212121;
+  background-color: aliceblue;
 }
 
 #right {
@@ -117,13 +110,15 @@ a {
 
 .projects {
 	text-align: center;
-	background-color: #787878;
-	padding: 2rem;
-	height: 100vh
+	background-color: #C0C0C0;
+	padding-top: 1rem;
+	height: 100vh;
+  color: #333333;
 }
 
 .projects a{
 	text-decoration:underline dotted;
+  color: #333333;
 }
 
 .projects h1{
@@ -133,4 +128,48 @@ a {
 
 #imgmath {
 	border: 3px solid white;
+}
+
+.about b{
+  color:#212121;
+}
+
+#tg {
+  border-radius: 100%;
+}
+
+#righta {
+  text-align: right;
+}
+
+#righta ::after{
+  content: '◦'; 
+  margin-left: 5px; 
+  color: black;
+}
+
+#rightbold{
+  text-align: right;
+}
+
+#rightbold ::after{
+  content: '•'; 
+  margin-left: 5px; 
+  color: black;
+}
+
+ul li{
+  list-style-type: none
+}
+
+#leftbold ::before {
+  content: '•'; 
+  margin-left: 5px; 
+  color: black;
+}
+
+#leftab ::before{
+  content: '◦'; 
+  margin-left: 5px; 
+  color: black;
 }
