@@ -143,8 +143,8 @@ a {
 }
 
 #righta ::after{
-  content: '◦'; 
-  margin-left: 5px; 
+  content: '◦';
+  margin-left: 5px;
   color: black;
 }
 
@@ -153,8 +153,8 @@ a {
 }
 
 #rightbold ::after{
-  content: '•'; 
-  margin-left: 5px; 
+  content: '•';
+  margin-left: 5px;
   color: black;
 }
 
@@ -163,13 +163,13 @@ ul li{
 }
 
 #leftbold ::before {
-  content: '•'; 
-  margin-left: 5px; 
+  content: '•';
+  margin-left: 5px;
   color: black;
 }
 
 #leftab ::before{
-  content: '◦'; 
-  margin-left: 5px; 
+  content: '◦';
+  margin-left: 5px;
   color: black;
 }

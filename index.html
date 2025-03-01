@@ -5,16 +5,16 @@
     <title>regicidekk</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body id='body'>
     <div class="header">
-      <a href="index.html"><img src="148468076.png" height="110px" width="110px"></a>
-      <ul>
-        <li><a href="#prjcts">projects</a></li>
-        <li></li>
+      <a href="index.html"><img src="148468076.png" id="alogo" height="110px" width="110px"></a>
+      <ul id="litop">
+        <li><a href="#prjcts">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li onclick="themewhite()"><a href=#header>Theme</a></li>
       </ul>
     </div>
-    <div class="prnt">
+    <div id="tt" class="prnt">
       <div class="main">
         <h1>REGICIDEKK</h1>
         <h3>Front-end Developer</h3>
@@ -27,10 +27,13 @@
     </div>
     <div class="projects" id="prjcts">
       <h1>Мои проекты</h1>
-      <h2><a href="https://github.com/regicidekk/MathGuru">1.MathGuru</a></h1>
+      <h2><a href="https://github.com/regicidekk/MathGuru">1.MathGuru</a></h2>
       <img id="imgmath" src="mathguru.png" height="240" width="420" alt="img mathguru">
       <p>MathGuru - арифметический тренажер.</p>
-      <h1></h1>
+      <hr>
+      <h2><a href="https://regicidekk.github.io/webulator/">2.Webulator</a></h2>
+      <img src="webulator.png" id="imgmath" height="240" width="420" alt="webulator">
+      <p>Webulator - удобный калькулятор базовых ареф. операций</p>
     </div>
     <div class="about" id="about">
       <h1>Обо мне</h1>
