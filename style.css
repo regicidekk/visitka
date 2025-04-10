@@ -20,7 +20,7 @@ li a {
   color: #7c8699;
 }
 
-b {
+.prnt b {
   color: white;
 }
 
@@ -71,8 +71,8 @@ a {
   padding-left: 12rem;
   padding-right: 12rem;
   height: 100vh;
-  color:#212121;
-  background-color: aliceblue;
+  color:aliceblue;
+  background-color: #212121;
 }
 
 #right {
@@ -110,28 +110,29 @@ a {
 
 .projects {
 	text-align: center;
-	background-color: #C0C0C0;
-	padding-top: 1rem;
-	height: 100vh;
-  color: #333333;
+	background-color: #363636;
+	padding-top: 0.2rem;
+	height: 102vh;
+  color: #c9c9c9;
 }
 
 .projects a{
 	text-decoration:underline dotted;
-  color: #333333;
+  color: #c9c9c9;
 }
 
 .projects h1{
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 	font-size: 3rem;
 }
 
 #imgmath {
-	border: 3px solid white;
+	border: 1vh #c9c9c9;
+  border-style: dashed solid;
 }
 
 .about b{
-  color:#212121;
+  color: aliceblue;
 }
 
 #tg {
@@ -145,7 +146,7 @@ a {
 #righta ::after{
   content: '◦';
   margin-left: 5px;
-  color: black;
+  color: aliceblue;
 }
 
 #rightbold{
@@ -155,7 +156,7 @@ a {
 #rightbold ::after{
   content: '•';
   margin-left: 5px;
-  color: black;
+  color: white;
 }
 
 ul li{
@@ -165,11 +166,11 @@ ul li{
 #leftbold ::before {
   content: '•';
   margin-left: 5px;
-  color: black;
+  color: aliceblue;
 }
 
 #leftab ::before{
   content: '◦';
   margin-left: 5px;
-  color: black;
+  color: aliceblue;
 }
