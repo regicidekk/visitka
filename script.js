@@ -13,8 +13,8 @@ function themewhite() {
     document.getElementById('prjcts').style.color="#363636";
     document.querySelectorAll('.headprj a').forEach(element => {
       element.style.color = "#363636";
-    document.querySelectorAll('#imgmath').forEach(img => {
-      img.style.border = "1vh dashed #363636";
+    document.querySelectorAll('.imgmath').forEach(img => {
+      img.style.borderColor = "#363636";
     });
     });
     //about
@@ -35,8 +35,8 @@ function themewhite() {
     document.getElementById('prjcts').style.color="#c9c9c9"
     document.querySelectorAll('.headprj a').forEach(element => {
       element.style.color = "#c9c9c9";
-    document.querySelectorAll('#imgmath').forEach(img => {
-      img.style.border = "1vh dashed #c9c9c9";
+    document.querySelectorAll('.imgmath').forEach(img => {
+      img.style.borderColor = "#c9c9c9";
     });
     });
     //about

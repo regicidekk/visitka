@@ -126,7 +126,7 @@ a {
 	font-size: 3rem;
 }
 
-#imgmath {
+.imgmath {
 	border: 1vh #c9c9c9;
   border-style: dashed solid;
 }
